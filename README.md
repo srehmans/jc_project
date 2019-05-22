@@ -18,4 +18,21 @@ Add to your npm script
 }
 npm run cypress:open 
 
+
+Package.json -snapshot
+
+{
+  "name": "jumpcut",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^3.3.0"
+  },
+
+  "scripts": {
+    "cypress:open": "cypress open"
+  }
+}
+
+
 Done - Good to go 
